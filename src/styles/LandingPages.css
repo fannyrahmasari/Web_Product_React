@@ -1,0 +1,121 @@
+.hero-section {
+  height: 100vh;
+  background-color: #37517e;
+}
+
+.hero-button a {
+  text-decoration: none;
+  padding: 10px 8px 10px 8px;
+}
+
+.hero-content h1 {
+  width: 600px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-content p {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button-primary {
+  background: #47b2e4;
+  border: none;
+}
+
+.button-secondary {
+  background: transparent;
+  border: none;
+}
+
+.hero-image img {
+  width: 600px;
+}
+
+/* Product List */
+.productList-section h2 {
+  color: #37517e;
+}
+
+.productList-section .card-list {
+  width: 300px;
+  padding: 0;
+}
+
+.button-list {
+  background-color: transparent;
+  border: 2px lightgray solid;
+  color: #000;
+}
+
+/* newslatter section */
+.newslatter-section {
+  height: 200px;
+  background-color: #f3f5fa;
+}
+
+.newslatter-section h3 {
+  color: #37517e;
+}
+
+.newslatter-section .formControl Button {
+  right: 27%;
+}
+
+/* Footer section */
+.footer-section h3 {
+  font-size: 15px;
+  color: #37517e;
+}
+
+.footer-section p {
+  font-size: 10px;
+  color: #37517e;
+  width: 200px;
+}
+
+.footer-section ul li {
+  list-style: none;
+  font-size: 10px;
+}
+
+.copyright {
+  background-color: #37517e;
+  height: 50px;
+}
+
+.copyright p {
+  font-size: 10px;
+  margin: 20px 70px 0 70px;
+}
+
+/* Acoount Section */
+.account-section .text-account {
+  color: #37517e;
+}
+
+/* formLogin-section */
+.formLogin-section {
+  height: 100vh;
+  display: flex;
+}
+
+.formLogin-section h2 {
+  color: #37517e;
+}
+
+.formLogin-section a {
+  text-decoration: none;
+}
+
+/* Register */
+.formRegister-section h2 {
+  color: #37517e;
+}

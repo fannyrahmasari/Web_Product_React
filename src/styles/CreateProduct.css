@@ -1,0 +1,138 @@
+.navbarProduct {
+  border-bottom: 2px solid lightgray;
+}
+
+.judul {
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.paragraf {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.kotak-form {
+  width: 400px;
+  height: 991px;
+  top: 28.61px;
+  left: 24px;
+}
+
+.kotak-form .error-style {
+  color: red;
+}
+
+.kotak-content {
+  width: 936px;
+}
+
+.judul-form {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-form {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.input {
+  width: 282px;
+  height: 36px;
+  top: 33px;
+  left: 9px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.select {
+  width: 282px;
+  height: 36px;
+  top: 33px;
+  left: 9px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.upload {
+  width: 282px;
+  height: 36px;
+  top: 33px;
+  left: 9px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.judul-tabel {
+  text-align: right;
+  font-size: 31px;
+}
+
+.btn-edit {
+  width: 100px;
+  background-color: blue;
+  color: white;
+}
+
+/* CSS untuk tampilan modal konfirmasi penghapusan */
+.delete-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  z-index: 999;
+  text-align: center;
+  width: 300px;
+}
+
+.delete-modal p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.delete-modal button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-modal button:hover {
+  background-color: #d32f2f;
+}
+
+/* CSS untuk mengatur overlay latar belakang */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
